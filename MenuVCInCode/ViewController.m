@@ -52,7 +52,7 @@
     
     //--Array of Menu Titles--------------------------------------------------------------------------
     
-    _titles = @[@"    FIGHTER SEARCH",@"    SOCIAL FEED",@"    GYM LOCATOR",@"    WEIGHTCLASS/BMI CALCULATOR",@"    SHARE BOXSTATS",@"",@"",@""];
+    _titles = @[@"    FIGHTER SEARCH",@"    SOCIAL FEED",@"    GYM LOCATOR",@"    WEIGHTCLASS/BMI CALCULATOR",@"    SHARE BOXSTATS"];
     yOffset = 10;
     [self loop];
 }
@@ -121,7 +121,7 @@
     
     //--Kenetic Labs Button----------------------------------------------------------------------------
     
-    UIButton *Klab = [[UIButton alloc]initWithFrame:CGRectMake(0, yOffset+120, screenWidth, 30)];
+    UIButton *Klab = [[UIButton alloc]initWithFrame:CGRectMake(0, yOffset+115, screenWidth, 30)];
     [Klab setTitle:@"Made in the USA Kenetic Labs, Inc." forState:UIControlStateNormal];
     [Klab titleLabel].font = [UIFont fontWithName:@"AvenirNext-Regular" size:11];
     //Klab.backgroundColor = [UIColor redColor];
@@ -130,7 +130,7 @@
     
     //--Copyright Label-------------------------------------------------------------------------------
     
-    UILabel *copyrightLabel = [[UILabel alloc]initWithFrame:CGRectMake(0, yOffset+140, screenWidth, 15)];
+    UILabel *copyrightLabel = [[UILabel alloc]initWithFrame:CGRectMake(0, yOffset+135, screenWidth, 15)];
     [copyrightLabel setText:@"Copyright (c) 2016 BoxStats, Inc. All rights reserved."];
     [copyrightLabel setTextColor:[UIColor whiteColor]];
     [copyrightLabel setFont:[UIFont fontWithName:@"AvenirNext-Regular" size:9]];
