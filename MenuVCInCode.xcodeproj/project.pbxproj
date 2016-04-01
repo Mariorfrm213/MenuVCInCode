@@ -15,6 +15,8 @@
 		D2697F7D1CAE0D630054263F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2697F7B1CAE0D630054263F /* LaunchScreen.storyboard */; };
 		D2697F881CAE0D630054263F /* MenuVCInCodeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D2697F871CAE0D630054263F /* MenuVCInCodeTests.m */; };
 		D2697F931CAE0D630054263F /* MenuVCInCodeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D2697F921CAE0D630054263F /* MenuVCInCodeUITests.m */; };
+		D2697FA11CAE10C20054263F /* Box_Stats_Sign_in1_@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D2697FA01CAE10C20054263F /* Box_Stats_Sign_in1_@2x.png */; };
+		D2697FA91CAE24920054263F /* CR_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = D2697FA81CAE24920054263F /* CR_logo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		D2697F8E1CAE0D630054263F /* MenuVCInCodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MenuVCInCodeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2697F921CAE0D630054263F /* MenuVCInCodeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MenuVCInCodeUITests.m; sourceTree = "<group>"; };
 		D2697F941CAE0D630054263F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2697FA01CAE10C20054263F /* Box_Stats_Sign_in1_@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Box_Stats_Sign_in1_@2x.png"; sourceTree = "<group>"; };
+		D2697FA81CAE24920054263F /* CR_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CR_logo.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +121,8 @@
 		D2697F6D1CAE0D630054263F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D2697FA81CAE24920054263F /* CR_logo.png */,
+				D2697FA01CAE10C20054263F /* Box_Stats_Sign_in1_@2x.png */,
 				D2697F6E1CAE0D630054263F /* main.m */,
 			);
 			name = "Supporting Files";
@@ -243,6 +249,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2697FA11CAE10C20054263F /* Box_Stats_Sign_in1_@2x.png in Resources */,
+				D2697FA91CAE24920054263F /* CR_logo.png in Resources */,
 				D2697F7D1CAE0D630054263F /* LaunchScreen.storyboard in Resources */,
 				D2697F7A1CAE0D630054263F /* Assets.xcassets in Resources */,
 				D2697F781CAE0D630054263F /* Main.storyboard in Resources */,
@@ -496,6 +504,7 @@
 				D2697F991CAE0D630054263F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D2697F9A1CAE0D630054263F /* Build configuration list for PBXNativeTarget "MenuVCInCodeTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +513,7 @@
 				D2697F9C1CAE0D630054263F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D2697F9D1CAE0D630054263F /* Build configuration list for PBXNativeTarget "MenuVCInCodeUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +522,7 @@
 				D2697F9F1CAE0D630054263F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
